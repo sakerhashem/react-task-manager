@@ -1,9 +1,66 @@
 
 #root {
-  width: 100%;
-  margin: 0 auto;
+    min-height: 100vh;
 }
 
-.app {
-  min-height: 100vh;
+.app-layout {
+    min-height: 100vh;
+}
+
+.app-header {
+    background-color: #1e293b;
+    color: white;
+    padding: 25px 40px;
+}
+
+.app-header h1 {
+    font-size: 28px;
+    margin-bottom: 5px;
+}
+
+.app-header p {
+    color: #cbd5e1;
+}
+
+.app-nav {
+    display: flex;
+    gap: 10px;
+    padding: 15px 40px;
+    background-color: white;
+    border-bottom: 1px solid #e2e8f0;
+}
+
+.nav-link {
+    text-decoration: none;
+    color: #475569;
+    padding: 10px 16px;
+    border-radius: 6px;
+    font-weight: 600;
+    transition: 0.2s;
+}
+
+.nav-link:hover {
+    background-color: #f1f5f9;
+}
+
+.nav-link.active {
+    background-color: #2563eb;
+    color: white;
+}
+
+.main-content {
+    max-width: 1200px;
+    margin: 40px auto;
+    padding: 0 30px;
+}
+
+.page h2 {
+    font-size: 26px;
+    margin-bottom: 12px;
+    color: #1e293b;
+}
+
+.page p {
+    color: #64748b;
+    line-height: 1.6;
 }
